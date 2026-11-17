@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Viraj Donnipad</title>
+  <meta name="description" content="Personal website of Viraj Donnipad.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#top">VD</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="theme" aria-label="Toggle dark mode">◐</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="avatar">
+        <span class="initials">VD</span>
+        <img src="images/profile.png" alt="image of my planet" onerror="this.remove()">
+      </div>
+      <div>
+        <p class="eyebrow">Hi, I'm</p>
+        <h1>Viraj Donnipad</h1>
+        <p class="tagline">Cool developer. I build things and enjoy learning how they work.</p>
+        <div class="cta">
+          <a class="btn primary" href="#projects">See my work</a>
+          <a class="btn" href="https://github.com/developer1-vd">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        im a martian developer
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="chips">
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>HTML &amp; CSS</li>
+        <li>Git &amp; GitHub</li>
+        <li>Linux</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>SpacePenguin</h3>
+          <p>My custom web browser.</p>
+          <a href="https://github.com/developer1-vd/SpacePenguin">View on GitHub →</a>
+        </article>
+        <article class="card">
+          <h3>Laser Tag</h3>
+          <p>pew pew AAH</p>
+          <a href="https://github.com/developer1-vd/LaserTag">View on GitHub →</a>
+        </article>
+        <article class="card">
+          <h3>My arduino projects</h3>
+          <p>sorry no description here :(</p>
+          <a href="https://github.com/developer1-vd/Dev1-Arduino-Projects">View on GitHub →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Want to chat or collaborate? Reach out.</p>
+      <p>
+        <a class="btn primary" href="mailto:vdonnipad@gmail.com">vdonnipad@gmail.com</a>
+        <a class="btn" href="https://github.com/developer1-vd">github.com/developer1-vd</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Viraj Donnipad</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
